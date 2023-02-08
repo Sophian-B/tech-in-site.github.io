@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+header li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.navigation-links li a:hover{
+    text-decoration: underline crimson 2px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    border-bottom: solid 2px crimson;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navigation-links{
+    list-style: none;
+}
+
+.navigation-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+
+.title h1{
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-services{
+    
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: 75px auto 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon img{
+    width: 128px;
+    height: 128px;
+}
+
+.card{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card p{
+    color: whitesmoke;
+    font-size: larger;
+    width: 250px;
+    margin-top: 15px;
+
+}
+
+.card h2{
+    color: whitesmoke;
+    font-size: xx-large;
+}
